@@ -10,7 +10,9 @@ const pokedex = [
 ];
 
 const pokeList = pokedex.map((pokemon) =>
-    <li>{pokemon.name}</li>
+    <li key={pokemon.number}>
+        {pokemon.name}
+    </li>
 );
 
 ReactDOM.render(
