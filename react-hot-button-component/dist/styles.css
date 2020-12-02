@@ -1,0 +1,25 @@
+button {
+    margin: 0;
+    position: absolute;
+    width:200px;
+    height:50px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.purple{
+    background-color:purple;
+}
+.blue{
+    background-color:blue;
+}
+.magenta{
+    background-color:magenta;
+}
+.yellow{
+    background-color:yellow;
+}
+.peachpuff{
+    background-color:#efb078;
+}
