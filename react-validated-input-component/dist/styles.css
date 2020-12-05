@@ -1,0 +1,21 @@
+form{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+i{
+    margin-left:10px;
+    font-size:16px;
+}
+.fa-times{
+    color:red;
+}
+.fa-check{
+    color:green;
+}
+.info{
+    color:red;
+}
