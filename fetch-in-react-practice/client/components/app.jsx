@@ -25,9 +25,9 @@ class App extends React.Component {
      */
     fetch('/api/todos')
         .then(res=>res.json())
-        .then(users=>{
+        .then(todos=>{
           this.setState({
-            todos:users
+            todos:todos
         })})
         .catch(err=>console.error(err));
   }
@@ -47,10 +47,11 @@ class App extends React.Component {
       body:JSON.stringify(newTodo),
     })
         .then(res=>res.json())
-        .then(()=>{
-          this.state.todos.push(newTodo);
+        .then((todo)=>{
+            const todosCopy = this.state.todos.slice(0,this.state.todos.length);
+            todosCopy.push(todo);
           this.setState({
-            todos:this.state.todos
+              todos:todosCopy
           })
         })
         .catch(err=>console.error(err));

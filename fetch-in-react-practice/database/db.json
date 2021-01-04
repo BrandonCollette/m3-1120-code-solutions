@@ -21,34 +21,14 @@
       "id": 8
     },
     {
-      "task": "awesome.",
+      "task": "Doom Eternal",
       "isCompleted": false,
       "id": 9
     },
     {
-      "task": "wow cool.",
+      "task": "Halo 3",
       "isCompleted": false,
       "id": 10
-    },
-    {
-      "task": "new note",
-      "isCompleted": false,
-      "id": 11
-    },
-    {
-      "task": "another note",
-      "isCompleted": true,
-      "id": 12
-    },
-    {
-      "task": "wowowowowo",
-      "isCompleted": false,
-      "id": 13
-    },
-    {
-      "task": "this is another todo that is awesome",
-      "isCompleted": true,
-      "id": 14
     }
   ]
 }
